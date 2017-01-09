@@ -1,21 +1,21 @@
-# homebridge-foscam-temperature
+# homebridge-foscam-humidity
 
-This is a plugin for [homebridge](https://github.com/nfarina/homebridge) which makes it possible to create a temperature sensor
-in HomeKit for Foscam Cameras that have temperature sensor.
+This is a plugin for [homebridge](https://github.com/nfarina/homebridge) which makes it possible to create a humidity sensor
+in HomeKit for Foscam Cameras that have humidity sensor.
 
 # Information
-The temperature is retrieved from the CGI API of Foscam Cameras.
+The humidity is retrieved from the CGI API of Foscam Cameras.
 ```
-http://hostname:port/cgi-bin/CGIProxy.fcgi?cmd=getTemperatureState
+http://hostname:port/cgi-bin/CGIProxy.fcgi?cmd=getHumidityState
 ```
 
 ## Example config
 
 ```json
 {
-  "accessory": "FoscamTemperature",
-  "name": "Foscam Temperature Sensor",
-  "description": "The temperature sensor from a Foscam P1 Camera",
+  "accessory": "FoscamHumidity",
+  "name": "Foscam Humidity Sensor",
+  "description": "The humidity sensor from a Foscam P1 Camera",
   "hostname": "The hostname of the foscam camera",
   "port": "The port of the foscam camera",
   "username": "username of the foscam",
