@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-foscam-temperature",
-  "version": "1.0.2",
-  "description": "Temperature sensor from Foscam Cameras that have temperature sensor",
+  "name": "homebridge-foscam-humidity",
+  "version": "1.0.1",
+  "description": "Temperature sensor from Foscam Cameras that have humidity sensor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,10 +22,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ageorgios/homebridge-foscam-temperature.git"
+    "url": "git+https://github.com/ageorgios/homebridge-foscam-humidity.git"
   },
   "bugs": {
-    "url": "https://github.com/ageorgios/homebridge-foscam-temperature/issues"
+    "url": "https://github.com/ageorgios/homebridge-foscam-humidity/issues"
   },
-  "homepage": "https://github.com/ageorgios/homebridge-foscam-temperature#readme"
+  "homepage": "https://github.com/ageorgios/homebridge-foscam-humidity#readme"
 }

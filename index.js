@@ -33,7 +33,7 @@ FoscamHumidityAccessory.prototype.getState = function(callback) {
   xmlToJson("http://" + this.hostname + ":" + this.port +"/cgi-bin/CGIProxy.fcgi?cmd=getHumidityState&usr="+this.username+"&pwd="+this.password, function(err, data) {
     if (err) return callback(err);
     that.log("Foscam Humidity: " + JSON.stringify(data, null, 2));
-    callback(null, parseFloat(data.CGI_Result.degree[0]))
+    callback(null, parseFloat(data.CGI_Result.humidity[0]))
   })
 }
 
