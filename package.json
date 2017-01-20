@@ -1,6 +1,6 @@
 {
   "name": "homebridge-foscam-humidity",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Temperature sensor from Foscam Cameras that have humidity sensor",
   "main": "index.js",
   "scripts": {
